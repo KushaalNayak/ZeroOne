@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroOne - KLU Developer Community</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">ZeroOne</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#sessions">Sessions</a>
+                <a href="#attendance">Attendance</a>
+                <a href="#projects">Projects</a>
+                <a href="#registration">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering aspiring developers to build, create, and inspire</h1>
+            <p>We create a vibrant community of aspiring developers, building real-world projects and inspiring innovation. Shape the future of technology with hands-on experiences, collaboration, and limitless possibilities.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-club">
+        <div class="club-info">
+            <h2>About ZeroOne</h2>
+            <div class="highlight-points">
+                <div class="point-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Developer Community</h3>
+                    <p>A vibrant community of passionate developers at KL University, fostering innovation and technical excellence.</p>
+                </div>
+                <div class="point-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Technical Sessions</h3>
+                    <p>Weekly hands-on sessions covering cutting-edge technologies, web development, and programming concepts.</p>
+                </div>
+                <div class="point-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Peer Learning</h3>
+                    <p>Collaborative environment where students learn, share knowledge, and grow together as developers.</p>
+                </div>
+                <div class="point-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Real Projects</h3>
+                    <p>Work on real-world projects to gain practical experience and build a strong portfolio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <h2>100+</h2>
+            <p>Members</p>
+        </div>
+        <div class="stat-item">
+            <h2>20+</h2>
+            <p>Projects</p>
+        </div>
+        <div class="stat-item">
+            <h2>25+</h2>
+            <p>Workshops</p>
+        </div>
+        <div class="stat-item">
+            <h2>5+</h2>
+            <p>Hackathons</p>
+        </div>
+    </section>
+
+    <section id="sessions" class="sessions">
+        <h2>Technical Sessions</h2>
+        <div class="session-grid">
+            <div class="session-card">
+                <div class="session-date">Week 1</div>
+                <h3>Introduction to Web Development</h3>
+                <div class="session-details">
+                    <p><i class="fas fa-calendar"></i> Every Monday & Friday</p>
+                    <p><i class="fas fa-clock"></i> 5:00 PM - 7:30 PM</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Room R306A, R&D Block</p>
+                </div>
+                <div class="session-topics">
+                    <h4>Topics Covered:</h4>
+                    <ul>    
+                        <li>HTML Fundamentals</li>
+                        <li>CSS Basics</li>
+                        <li>JavaScript Introduction</li>
+                    </ul>
+                </div>
+                <div class="session-status completed">Completed</div>
+            </div>
+
+            <div class="session-card">
+                <div class="session-date">Week 2</div>
+                <h3>Introduction to JavaScript</h3>
+                <div class="session-details">
+                    <p><i class="fas fa-calendar"></i> Every Monday & Friday</p>
+                    <p><i class="fas fa-clock"></i> 5:00 PM - 7:30 PM</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Room R306A, R&D Block</p>
+                </div>
+                <div class="session-topics">
+                    <h4>Topics Covered:</h4>
+                    <ul>
+                        <li>ES6+ Features</li>
+                        <li>Async Programming</li>
+                        <li>DOM Manipulation</li>
+                    </ul>
+                </div>
+                <div class="session-status upcoming">Upcoming</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="sac.png" alt="Data Analysis">
+                </div>
+                <div class="project-content">
+                    <h3>KLU SAC Portal</h3>
+                    <p>A comprehensive student management system with attendance tracking and course management.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="svr.png" alt="Web Development">
+                </div>
+                <div class="project-content">
+                    <h3>Smart Village Revolution</h3>
+                    <p>A Comprehensive Website for Smart Village Revolution</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="attendance" class="attendance-section">
+        <h2>Attendance Portal</h2>
+        <div class="attendance-overview">
+            <div class="overview-card">
+                <div class="overview-header">
+                    <h3>Quick Access</h3>
+                    <p>Track and manage session attendance</p>
+                </div>
+                <div class="overview-actions">
+                    <button class="action-btn primary" onclick="showAttendanceForm()">
+                        <i class="fas fa-user-check"></i>
+                        Mark Attendance
+                    </button>
+                    <button class="action-btn secondary" onclick="showAttendanceHistory()">
+                        <i class="fas fa-history"></i>
+                        View History
+                    </button>
+                </div>
+            </div>
+            <div class="overview-stats">
+                <div class="stat-box">
+                    <span class="stat-number">90%</span>
+                    <span class="stat-label">Average Attendance</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">45</span>
+                    <span class="stat-label">Total Sessions</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Active Members</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="attendanceModal" class="modal">
+            <div class="modal-content">
+                <h3>Mark Attendance</h3>
+                <form id="attendanceForm">
+                    <div class="form-group">
+                        <label for="studentId">Student ID</label>
+                        <input type="text" id="studentId" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="session">Session</label>
+                        <select id="session" required>
+                            <option value="">Select Session</option>
+                            <option value="web-dev">Web Development</option>
+                            <option value="js">Advanced JavaScript</option>
+                            <option value="react">React Basics</option>
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <button type="button" class="cancel-btn" onclick="closeModal()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="registration" class="registration">
+        <h2>Join Our Community</h2>
+        <div class="registration-container">
+            <div class="registration-info">
+                <h3>Why Join ZeroOne?</h3>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-check-circle"></i> Access to exclusive workshops and sessions</li>
+                    <li><i class="fas fa-check-circle"></i> Collaborate on real-world projects</li>
+                    <li><i class="fas fa-check-circle"></i> Network with like-minded developers</li>
+                    <li><i class="fas fa-check-circle"></i> Learn from experienced mentors</li>
+                    <li><i class="fas fa-check-circle"></i> Build your professional portfolio</li>
+                </ul>
+            </div>
+            <div class="registration-form-container">
+                <form id="registrationForm" class="registration-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regStudentId">Student ID</label>
+                        <input type="text" id="regStudentId" name="studentId" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="branch">Branch</label>
+                        <select id="branch" name="branch" required>
+                            <option value="">Select Branch</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="it">Information Technology</option>
+                            <option value="ece">Electronics & Communication</option>
+                            <option value="eee">Electrical & Electronics</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year of Study</label>
+                        <select id="year" name="year" required>
+                            <option value="">Select Year</option>
+                            <option value="1">1st Year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Areas of Interest</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="web"> Web Development
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="app"> App Development
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="ai"> AI/ML
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="cybersecurity"> Cybersecurity
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="register-btn">Register Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>The Mission Statement</h3>
+                <p>The mission of Student Activity Center at esteemed Koneru Lakshmaiah Education Foundation is to develop principled, innovative leaders who improve the world and to generate ideas that advance management practice.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>zeroonedevs@kluniversity.in</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyrights by ZeroOne. All rights reserved.</p>
+            <p>Designed and Developed by Kushaal Nayak </p>
+        </div>
+    </footer>
+
+    <script>
+        function showAttendanceForm() {
+            document.getElementById('attendanceModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('attendanceModal').style.display = 'none';
+        }
+
+        document.getElementById('attendanceForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Attendance marked successfully!');
+            closeModal();
+        });
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('attendanceModal')) {
+                closeModal();
+            }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
